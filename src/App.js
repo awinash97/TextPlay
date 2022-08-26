@@ -63,6 +63,7 @@ function App() {
 
   return (
     <>
+    {/* test comment */}
       <Router>
         <Navbar title="TextPlay" mode={mode} changeMode={toggleMode}/>
         <Alert alert={alert} />
